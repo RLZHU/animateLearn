@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroupAnimationViewController" customModule="AnimateLearn" customModuleProvider="target">
+            <connections>
+                <outlet property="animateView" destination="hjY-aB-Mjg" id="0xe-7r-Cc0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hjY-aB-Mjg">
+                    <rect key="frame" x="250" y="260" width="100" height="80"/>
+                    <color key="backgroundColor" red="1" green="0.52171138949999996" blue="0.94949647260000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="6Bq-kx-b2S"/>
+                        <constraint firstAttribute="width" constant="100" id="q2N-XC-7ru"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="rnX-YH-aeJ">
+                    <rect key="frame" x="215" y="498" width="170" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aJ-Sy-GCT">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="30"/>
+                            <state key="normal" title="组合同时"/>
+                            <connections>
+                                <action selector="concurrentAnimation:" destination="-1" eventType="touchUpInside" id="Qgv-Uz-9vq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9d-wV-4fK">
+                            <rect key="frame" x="110" y="0.0" width="60" height="30"/>
+                            <state key="normal" title="组合顺序"/>
+                            <connections>
+                                <action selector="oneByOneAnimate:" destination="-1" eventType="touchUpInside" id="tuH-9J-Q0L"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGo-6p-Gw3">
+                    <rect key="frame" x="46" y="38" width="34" height="30"/>
+                    <state key="normal" title="back"/>
+                    <connections>
+                        <action selector="dismissClick:" destination="-1" eventType="touchUpInside" id="BZ2-6i-cRp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fGo-6p-Gw3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="Q9s-C1-DpI"/>
+                <constraint firstItem="hjY-aB-Mjg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QKX-4U-Ksh"/>
+                <constraint firstItem="rnX-YH-aeJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="TPF-gv-ffT"/>
+                <constraint firstItem="fGo-6p-Gw3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="46" id="ZwG-j4-q0U"/>
+                <constraint firstAttribute="bottom" secondItem="rnX-YH-aeJ" secondAttribute="bottom" constant="72" id="e4O-1s-y3M"/>
+                <constraint firstItem="hjY-aB-Mjg" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="nNt-kb-XV1"/>
+            </constraints>
+            <point key="canvasLocation" x="341" y="253"/>
+        </view>
+    </objects>
+</document>

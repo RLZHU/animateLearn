@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		A94EDC521CD2446C00352A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC511CD2446C00352A74 /* AppDelegate.swift */; };
-		A94EDC541CD2446C00352A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC531CD2446C00352A74 /* ViewController.swift */; };
 		A94EDC571CD2446C00352A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94EDC551CD2446C00352A74 /* Main.storyboard */; };
 		A94EDC591CD2446C00352A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94EDC581CD2446C00352A74 /* Assets.xcassets */; };
 		A94EDC5C1CD2446C00352A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94EDC5A1CD2446C00352A74 /* LaunchScreen.storyboard */; };
 		A94EDC671CD2446D00352A74 /* AnimateLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC661CD2446D00352A74 /* AnimateLearnTests.swift */; };
 		A94EDC721CD2446D00352A74 /* AnimateLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC711CD2446D00352A74 /* AnimateLearnUITests.swift */; };
+		A94EDC801CD244A600352A74 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC7F1CD244A600352A74 /* BaseTableViewController.swift */; };
+		A94EDC851CD248AE00352A74 /* BasicAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC831CD248AE00352A74 /* BasicAnimationViewController.swift */; };
+		A94EDC861CD248AE00352A74 /* BasicAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94EDC841CD248AE00352A74 /* BasicAnimationViewController.xib */; };
+		A94EDC891CD2559000352A74 /* KeyFrameAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC871CD2559000352A74 /* KeyFrameAnimationViewController.swift */; };
+		A94EDC8A1CD2559000352A74 /* KeyFrameAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94EDC881CD2559000352A74 /* KeyFrameAnimationViewController.xib */; };
+		A94EDC8D1CD2EF5200352A74 /* GroupAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC8B1CD2EF5200352A74 /* GroupAnimationViewController.swift */; };
+		A94EDC8E1CD2EF5200352A74 /* GroupAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94EDC8C1CD2EF5200352A74 /* GroupAnimationViewController.xib */; };
+		A94EDC911CD2FCAD00352A74 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC8F1CD2FCAD00352A74 /* TransitionViewController.swift */; };
+		A94EDC941CD3134500352A74 /* TransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94EDC931CD3134500352A74 /* TransitionViewController.xib */; };
+		A94EDC991CD85E5B00352A74 /* DivergentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC981CD85E5B00352A74 /* DivergentViewController.swift */; };
+		A94EDC9B1CD85E7500352A74 /* DivergentCenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC9A1CD85E7500352A74 /* DivergentCenterButton.swift */; };
+		A94EDC9D1CD85E8900352A74 /* DivergentOtherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC9C1CD85E8900352A74 /* DivergentOtherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,6 @@
 /* Begin PBXFileReference section */
 		A94EDC4E1CD2446C00352A74 /* AnimateLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimateLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94EDC511CD2446C00352A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A94EDC531CD2446C00352A74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A94EDC561CD2446C00352A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A94EDC581CD2446C00352A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A94EDC5B1CD2446C00352A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,18 @@
 		A94EDC6D1CD2446D00352A74 /* AnimateLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimateLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94EDC711CD2446D00352A74 /* AnimateLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateLearnUITests.swift; sourceTree = "<group>"; };
 		A94EDC731CD2446D00352A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94EDC7F1CD244A600352A74 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		A94EDC831CD248AE00352A74 /* BasicAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAnimationViewController.swift; sourceTree = "<group>"; };
+		A94EDC841CD248AE00352A74 /* BasicAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicAnimationViewController.xib; sourceTree = "<group>"; };
+		A94EDC871CD2559000352A74 /* KeyFrameAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyFrameAnimationViewController.swift; sourceTree = "<group>"; };
+		A94EDC881CD2559000352A74 /* KeyFrameAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyFrameAnimationViewController.xib; sourceTree = "<group>"; };
+		A94EDC8B1CD2EF5200352A74 /* GroupAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupAnimationViewController.swift; sourceTree = "<group>"; };
+		A94EDC8C1CD2EF5200352A74 /* GroupAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupAnimationViewController.xib; sourceTree = "<group>"; };
+		A94EDC8F1CD2FCAD00352A74 /* TransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		A94EDC931CD3134500352A74 /* TransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionViewController.xib; sourceTree = "<group>"; };
+		A94EDC981CD85E5B00352A74 /* DivergentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivergentViewController.swift; sourceTree = "<group>"; };
+		A94EDC9A1CD85E7500352A74 /* DivergentCenterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivergentCenterButton.swift; sourceTree = "<group>"; };
+		A94EDC9C1CD85E8900352A74 /* DivergentOtherButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivergentOtherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,21 @@
 		A94EDC501CD2446C00352A74 /* AnimateLearn */ = {
 			isa = PBXGroup;
 			children = (
+				A94EDC971CD852B900352A74 /* animateBtn1 */,
 				A94EDC511CD2446C00352A74 /* AppDelegate.swift */,
-				A94EDC531CD2446C00352A74 /* ViewController.swift */,
+				A94EDC7F1CD244A600352A74 /* BaseTableViewController.swift */,
 				A94EDC551CD2446C00352A74 /* Main.storyboard */,
 				A94EDC581CD2446C00352A74 /* Assets.xcassets */,
 				A94EDC5A1CD2446C00352A74 /* LaunchScreen.storyboard */,
 				A94EDC5D1CD2446C00352A74 /* Info.plist */,
+				A94EDC831CD248AE00352A74 /* BasicAnimationViewController.swift */,
+				A94EDC841CD248AE00352A74 /* BasicAnimationViewController.xib */,
+				A94EDC871CD2559000352A74 /* KeyFrameAnimationViewController.swift */,
+				A94EDC881CD2559000352A74 /* KeyFrameAnimationViewController.xib */,
+				A94EDC8B1CD2EF5200352A74 /* GroupAnimationViewController.swift */,
+				A94EDC8C1CD2EF5200352A74 /* GroupAnimationViewController.xib */,
+				A94EDC8F1CD2FCAD00352A74 /* TransitionViewController.swift */,
+				A94EDC931CD3134500352A74 /* TransitionViewController.xib */,
 			);
 			path = AnimateLearn;
 			sourceTree = "<group>";
@@ -123,6 +154,16 @@
 				A94EDC731CD2446D00352A74 /* Info.plist */,
 			);
 			path = AnimateLearnUITests;
+			sourceTree = "<group>";
+		};
+		A94EDC971CD852B900352A74 /* animateBtn1 */ = {
+			isa = PBXGroup;
+			children = (
+				A94EDC981CD85E5B00352A74 /* DivergentViewController.swift */,
+				A94EDC9A1CD85E7500352A74 /* DivergentCenterButton.swift */,
+				A94EDC9C1CD85E8900352A74 /* DivergentOtherButton.swift */,
+			);
+			name = animateBtn1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +234,7 @@
 				TargetAttributes = {
 					A94EDC4D1CD2446C00352A74 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EQ6KF3RB82;
 					};
 					A94EDC611CD2446D00352A74 = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,6 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94EDC8E1CD2EF5200352A74 /* GroupAnimationViewController.xib in Resources */,
+				A94EDC941CD3134500352A74 /* TransitionViewController.xib in Resources */,
+				A94EDC8A1CD2559000352A74 /* KeyFrameAnimationViewController.xib in Resources */,
+				A94EDC861CD248AE00352A74 /* BasicAnimationViewController.xib in Resources */,
 				A94EDC5C1CD2446C00352A74 /* LaunchScreen.storyboard in Resources */,
 				A94EDC591CD2446C00352A74 /* Assets.xcassets in Resources */,
 				A94EDC571CD2446C00352A74 /* Main.storyboard in Resources */,
@@ -256,8 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A94EDC541CD2446C00352A74 /* ViewController.swift in Sources */,
+				A94EDC801CD244A600352A74 /* BaseTableViewController.swift in Sources */,
+				A94EDC911CD2FCAD00352A74 /* TransitionViewController.swift in Sources */,
 				A94EDC521CD2446C00352A74 /* AppDelegate.swift in Sources */,
+				A94EDC9B1CD85E7500352A74 /* DivergentCenterButton.swift in Sources */,
+				A94EDC851CD248AE00352A74 /* BasicAnimationViewController.swift in Sources */,
+				A94EDC891CD2559000352A74 /* KeyFrameAnimationViewController.swift in Sources */,
+				A94EDC8D1CD2EF5200352A74 /* GroupAnimationViewController.swift in Sources */,
+				A94EDC991CD85E5B00352A74 /* DivergentViewController.swift in Sources */,
+				A94EDC9D1CD85E8900352A74 /* DivergentOtherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +452,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimateLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexzhu.animate.AnimateLearn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexzhu.ssss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,9 +464,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimateLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexzhu.animate.AnimateLearn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexzhu.ssss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -482,6 +537,7 @@
 				A94EDC781CD2446D00352A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A94EDC791CD2446D00352A74 /* Build configuration list for PBXNativeTarget "AnimateLearnTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +546,7 @@
 				A94EDC7B1CD2446D00352A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A94EDC7C1CD2446D00352A74 /* Build configuration list for PBXNativeTarget "AnimateLearnUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +555,7 @@
 				A94EDC7E1CD2446D00352A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

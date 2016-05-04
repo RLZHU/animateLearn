@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "706f35f0-1232-8743-b083-6128c4dd9532++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "706f35f0-1232-8743-b083-6128c4dd9532++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0B8A692D-CBD7-40AD-8F37-42F548460633",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "706f35f0-1232-8743-b083-6128c4dd9532++505" : "..\/..\/..\/..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AnimateLearn",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AnimateLearn.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/10.0.1.66\/svn\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "706f35f0-1232-8743-b083-6128c4dd9532++505"
+    }
+  ]
+}

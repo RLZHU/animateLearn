@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransitionViewController" customModule="AnimateLearn" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="QAZ-PZ-P4e" id="FjR-bd-l92"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QAZ-PZ-P4e">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hjZ-S3-4YL">
+                    <rect key="frame" x="196" y="420" width="208" height="30"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADf-YG-hsX">
+                            <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="fade:" destination="-1" eventType="touchUpInside" id="QXB-uE-h2b"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQe-ZH-uDy">
+                            <rect key="frame" x="54" y="0.0" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="moveIn:" destination="-1" eventType="touchUpInside" id="zNx-EJ-vZj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix5-Bz-RO5">
+                            <rect key="frame" x="108" y="0.0" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="push:" destination="-1" eventType="touchUpInside" id="70E-1m-Nu0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENP-fs-LpP">
+                            <rect key="frame" x="162" y="0.0" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="reveal:" destination="-1" eventType="touchUpInside" id="lxy-3a-FBg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liH-0h-A4G">
+                    <rect key="frame" x="30" y="27" width="34" height="30"/>
+                    <state key="normal" title="back"/>
+                    <connections>
+                        <action selector="dismissClick:" destination="-1" eventType="touchUpInside" id="c5Z-MD-Zvc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hjZ-S3-4YL" firstAttribute="centerX" secondItem="QAZ-PZ-P4e" secondAttribute="centerX" id="MAk-mn-PgG"/>
+                <constraint firstItem="liH-0h-A4G" firstAttribute="top" secondItem="QAZ-PZ-P4e" secondAttribute="top" constant="27" id="WZ6-XG-q0E"/>
+                <constraint firstAttribute="bottom" secondItem="hjZ-S3-4YL" secondAttribute="bottom" constant="150" id="gao-z0-MJr"/>
+                <constraint firstItem="liH-0h-A4G" firstAttribute="leading" secondItem="QAZ-PZ-P4e" secondAttribute="leading" constant="30" id="gjf-pj-sUc"/>
+            </constraints>
+            <point key="canvasLocation" x="635" y="532"/>
+        </view>
+    </objects>
+</document>
