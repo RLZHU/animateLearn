@@ -41,28 +41,28 @@
                                 <action selector="positionAnimation:" destination="-1" eventType="touchUpInside" id="EeX-Rj-JWy"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wx4-yk-wUE">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wx4-yk-wUE">
                             <rect key="frame" x="65" y="0.0" width="51" height="30"/>
                             <state key="normal" title="opacity"/>
                             <connections>
                                 <action selector="opacityAnimation:" destination="-1" eventType="touchUpInside" id="sWl-qt-MeR"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFU-uy-j9R">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFU-uy-j9R">
                             <rect key="frame" x="126" y="0.0" width="36" height="30"/>
                             <state key="normal" title="scale"/>
                             <connections>
                                 <action selector="scaleAnimation:" destination="-1" eventType="touchUpInside" id="NIq-xs-R08"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsW-1C-029">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsW-1C-029">
                             <rect key="frame" x="172" y="0.0" width="41" height="30"/>
                             <state key="normal" title="rotate"/>
                             <connections>
                                 <action selector="rotateAnimation:" destination="-1" eventType="touchUpInside" id="wpb-0k-m2E"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FE-ef-aBS">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FE-ef-aBS">
                             <rect key="frame" x="223" y="0.0" width="123" height="30"/>
                             <state key="normal" title="background-color"/>
                             <connections>

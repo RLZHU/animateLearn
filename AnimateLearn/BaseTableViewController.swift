@@ -10,7 +10,7 @@ import UIKit
 
 class BaseTableViewController: UITableViewController {
     
-    var animateTypes  = ["basicAnimations", "keyframeAnimations", "groupAnimations", "transitionAnimations", "practise"];
+    var animateTypes  = ["basicAnimations", "keyframeAnimations", "groupAnimations", "transitionAnimations", "practise", "writingAnimation"];
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,6 +60,8 @@ class BaseTableViewController: UITableViewController {
             self.presentViewController(TransitionViewController(), animated: true, completion: nil)
         case 4:
             self.presentViewController(DivergentViewController(), animated: true, completion: nil)
+        case 5:
+            self.presentViewController(WritingAnimViewController(), animated: true, completion: nil)
         default:
             return;
         }

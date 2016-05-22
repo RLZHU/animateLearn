@@ -40,7 +40,7 @@
                                 <action selector="pathAnimation:" destination="-1" eventType="touchUpInside" id="uuH-8a-QAG"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69V-f2-iPf">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69V-f2-iPf">
                             <rect key="frame" x="137" y="0.0" width="30" height="30"/>
                             <state key="normal" title="抖动"/>
                             <connections>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90BF0DE1CF18B2200F9633A /* WritingAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90BF0DD1CF18B2200F9633A /* WritingAnimViewController.swift */; };
+		A90BF0E01CF18CFC00F9633A /* WritingAnimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90BF0DF1CF18CFC00F9633A /* WritingAnimView.swift */; };
+		A90BF0E31CF1A48A00F9633A /* DLTZkDLF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A90BF0E11CF19A2400F9633A /* DLTZkDLF.ttf */; };
 		A94EDC521CD2446C00352A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EDC511CD2446C00352A74 /* AppDelegate.swift */; };
 		A94EDC571CD2446C00352A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94EDC551CD2446C00352A74 /* Main.storyboard */; };
 		A94EDC591CD2446C00352A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94EDC581CD2446C00352A74 /* Assets.xcassets */; };
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A90BF0DD1CF18B2200F9633A /* WritingAnimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritingAnimViewController.swift; sourceTree = "<group>"; };
+		A90BF0DF1CF18CFC00F9633A /* WritingAnimView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritingAnimView.swift; sourceTree = "<group>"; };
+		A90BF0E11CF19A2400F9633A /* DLTZkDLF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DLTZkDLF.ttf; sourceTree = "<group>"; };
 		A94EDC4E1CD2446C00352A74 /* AnimateLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimateLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94EDC511CD2446C00352A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A94EDC561CD2446C00352A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,6 +102,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A90BF0DC1CF18AFF00F9633A /* writingAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				A90BF0E11CF19A2400F9633A /* DLTZkDLF.ttf */,
+				A90BF0DD1CF18B2200F9633A /* WritingAnimViewController.swift */,
+				A90BF0DF1CF18CFC00F9633A /* WritingAnimView.swift */,
+			);
+			name = writingAnimations;
+			sourceTree = "<group>";
+		};
 		A94EDC451CD2446C00352A74 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +135,7 @@
 		A94EDC501CD2446C00352A74 /* AnimateLearn */ = {
 			isa = PBXGroup;
 			children = (
+				A90BF0DC1CF18AFF00F9633A /* writingAnimations */,
 				A94EDC971CD852B900352A74 /* animateBtn1 */,
 				A94EDC511CD2446C00352A74 /* AppDelegate.swift */,
 				A94EDC7F1CD244A600352A74 /* BaseTableViewController.swift */,
@@ -275,6 +292,7 @@
 				A94EDC941CD3134500352A74 /* TransitionViewController.xib in Resources */,
 				A94EDC8A1CD2559000352A74 /* KeyFrameAnimationViewController.xib in Resources */,
 				A94EDC861CD248AE00352A74 /* BasicAnimationViewController.xib in Resources */,
+				A90BF0E31CF1A48A00F9633A /* DLTZkDLF.ttf in Resources */,
 				A94EDC5C1CD2446C00352A74 /* LaunchScreen.storyboard in Resources */,
 				A94EDC591CD2446C00352A74 /* Assets.xcassets in Resources */,
 				A94EDC571CD2446C00352A74 /* Main.storyboard in Resources */,
@@ -304,8 +322,10 @@
 			files = (
 				A94EDC801CD244A600352A74 /* BaseTableViewController.swift in Sources */,
 				A94EDC911CD2FCAD00352A74 /* TransitionViewController.swift in Sources */,
+				A90BF0DE1CF18B2200F9633A /* WritingAnimViewController.swift in Sources */,
 				A94EDC521CD2446C00352A74 /* AppDelegate.swift in Sources */,
 				A94EDC9B1CD85E7500352A74 /* DivergentCenterButton.swift in Sources */,
+				A90BF0E01CF18CFC00F9633A /* WritingAnimView.swift in Sources */,
 				A94EDC851CD248AE00352A74 /* BasicAnimationViewController.swift in Sources */,
 				A94EDC891CD2559000352A74 /* KeyFrameAnimationViewController.swift in Sources */,
 				A94EDC8D1CD2EF5200352A74 /* GroupAnimationViewController.swift in Sources */,

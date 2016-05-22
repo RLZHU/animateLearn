@@ -1,15 +1,18 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "998E98A6E8B8D8FA666769E29D58F9BD4474096B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "706f35f0-1232-8743-b083-6128c4dd9532++505" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "706f35f0-1232-8743-b083-6128c4dd9532++505" : 0
+    "706f35f0-1232-8743-b083-6128c4dd9532++505" : 0,
+    "998E98A6E8B8D8FA666769E29D58F9BD4474096B" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0B8A692D-CBD7-40AD-8F37-42F548460633",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "706f35f0-1232-8743-b083-6128c4dd9532++505" : "..\/..\/..\/..\/.."
+    "706f35f0-1232-8743-b083-6128c4dd9532++505" : "..\/..\/..\/..\/..",
+    "998E98A6E8B8D8FA666769E29D58F9BD4474096B" : "animateLearn\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "AnimateLearn",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/10.0.1.66\/svn\/ios",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "706f35f0-1232-8743-b083-6128c4dd9532++505"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RLZHU\/animateLearn.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "998E98A6E8B8D8FA666769E29D58F9BD4474096B"
     }
   ]
 }
