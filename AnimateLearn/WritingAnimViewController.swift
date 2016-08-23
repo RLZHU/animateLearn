@@ -21,7 +21,21 @@ class WritingAnimViewController: UIViewController {
         animView.frame = CGRectMake(100, 100, 300, 500)
         animView.showMessage("大梁字体")
         view.addSubview(animView)
-        
+        self .setupDismissBtn();
     }
 
+}
+
+extension WritingAnimViewController {
+    func setupDismissBtn() {
+        let dismiss = UIButton(type: .Custom)
+        dismiss.frame = CGRectMake(10, 20, 50, 40);
+        dismiss .setTitle("dismiss", forState: UIControlState.Normal)
+        dismiss.setTitleColor(UIColor.blackColor(), forState: .Normal)
+        self.view.addSubview(dismiss);
+        dismiss.addTarget(self, action: #selector(dismis), forControlEvents: .TouchUpInside)
+    }
+    func dismis() {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
 }
