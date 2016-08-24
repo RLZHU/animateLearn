@@ -24,8 +24,8 @@ class DribbleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setupDismissBtn()
         self.setupContentViewController()
+        self.setupDismissBtn()
     }
 
     override func didReceiveMemoryWarning() {
